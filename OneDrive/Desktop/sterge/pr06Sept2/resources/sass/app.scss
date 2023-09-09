@@ -1,0 +1,40 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+#hero{
+    display:flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#formCreate{
+    display:flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 15px;
+}
+input,select,button{
+    background-color: gainsboro;
+    padding: 5px;
+    font-size: 20px;
+    outline:none;
+    color: black;
+
+}
+input:hover,select:hover,button:hover{
+    background-color: darkgray;
+}
+span{
+    color: red;
+}
+
+
+
+
